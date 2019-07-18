@@ -1,0 +1,12 @@
+# Directories
+.npm/
+demos/
+docs/
+node_modules/
+src/
+
+# Files
+.DS_STORE
+.eslintcache
+npm-debug.log*
+*.config.js

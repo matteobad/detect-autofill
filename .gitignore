@@ -1,0 +1,10 @@
+# Directories
+.npm/
+dist/
+node_modules/
+
+# Files
+.DS_STORE
+.env
+.eslintcache
+npm-debug.log*

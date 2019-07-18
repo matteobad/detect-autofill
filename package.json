@@ -1,0 +1,34 @@
+{
+  "name": "detect-autofill",
+  "version": "0.0.0",
+  "description": "Small javascript library to detect and even prevent browsers autofill of form elements. Usefull for implementing floating labels or applying custom logics/styles.",
+  "main": "dist/detect-autofill.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matteobad/detect-autofill.git"
+  },
+  "keywords": [
+    "autocomplete",
+    "autofill",
+    "-webkit-autofill",
+    "floating",
+    "label",
+    "vanilla"
+  ],
+  "author": "Matteo Badini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matteobad/detect-autofill/issues"
+  },
+  "homepage": "https://github.com/matteobad/detect-autofill#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-google": "^0.13.0",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6"
+  }
+}
