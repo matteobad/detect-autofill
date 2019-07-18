@@ -1,11 +1,7 @@
-try {
-  // watch onanimationstart for -webkit browsers
-  document.querySelector(':-webkit-autofill');
-  document.addEventListener('animationstart', onAnimationStart);
-} catch (e) {
-  // watch oninput for non-webkit browsers
-  document.addEventListener('input', onInput, true);
-}
+import './detect-autofill.scss';
+
+document.addEventListener('animationstart', onAnimationStart, true);
+document.addEventListener('input', onInput, true);
 
 // polyfill CustomEvent for < IE11
 if (typeof window.CustomEvent !== 'function') {
@@ -65,7 +61,7 @@ function autocomplete(element) {
   if (element.hasAttribute('autocompleted')) return;
   element.setAttribute('autocompleted', '');
 
-  var event = new CustomEvent('onautocomplete', {
+  var event = new window.CustomEvent('onautocomplete', {
     bubbles: true, cancelable: true, detail: null,
   });
 
@@ -89,7 +85,7 @@ function cancelAutocomplete(element) {
   element.removeAttribute('autocompleted');
 
   // dispatch event
-  element.dispatchEvent(new CustomEvent('onautocomplete', {
+  element.dispatchEvent(new window.CustomEvent('onautocomplete', {
     bubbles: true, cancelable: false, detail: null,
   }));
 }
