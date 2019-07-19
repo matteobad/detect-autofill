@@ -1,0 +1,12 @@
+INPUT, SELECT, TEXTAREA {
+  &:-webkit-autofill {
+    animation-name: onautofillstart;
+  }
+
+  &:not(:-webkit-autofill) {
+    animation-name: onautofillcancel;
+  }
+}
+
+@keyframes onautofillstart { from {} }
+@keyframes onautofillcancel { from {} }
