@@ -1,6 +1,6 @@
 {
   "name": "detect-autofill",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "description": "Small javascript library to detect and even prevent browsers autofill of form elements. Usefull for implementing floating labels or applying custom logics/styles.",
   "main": "dist/detect-autofill.js",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matteobad/detect-autofill.git"
+    "url": "https://github.com/matteobad/detect-autofill.git"
   },
   "keywords": [
     "autocomplete",
