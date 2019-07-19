@@ -30,9 +30,9 @@ if (typeof window.CustomEvent !== 'function') {
  * @param {AnimationEvent} event
  */
 function onAnimationStart(event) {
-    ('onautofillstart' === event.animationName)
-        ? autocomplete(event.target)
-        : cancelAutocomplete(event.target);
+  ('onautofillstart' === event.animationName)
+    ? autocomplete(event.target)
+    : cancelAutocomplete(event.target);
 }
 
 /**
@@ -43,9 +43,9 @@ function onAnimationStart(event) {
  * @param {InputEvent} event
  */
 function onInput(event) {
-    ('insertReplacementText' === event.inputType || !('data' in event))
-        ? autocomplete(event.target)
-        : cancelAutocomplete(event.target);
+  ('insertReplacementText' === event.inputType || !('data' in event))
+    ? autocomplete(event.target)
+    : cancelAutocomplete(event.target);
 }
 
 /**
