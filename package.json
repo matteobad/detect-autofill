@@ -40,11 +40,15 @@
     "@semantic-release/github": "^5.4.2",
     "@semantic-release/npm": "^5.1.13",
     "@semantic-release/release-notes-generator": "^7.2.1",
+    "bundlesize": "^0.18.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "closure-webpack-plugin": "^2.0.1",
     "commitizen": "^4.0.3",
     "css-loader": "^3.1.0",
     "cz-conventional-changelog": "^3.0.1",
     "eslint": "^6.0.1",
     "eslint-config-google": "^0.13.0",
+    "google-closure-compiler": "^20190709.0.0",
     "husky": "^3.0.1",
     "node-sass": "^4.12.0",
     "npm-check": "^5.9.0",
@@ -63,5 +67,11 @@
     "hooks": {
       "pre-commit": "npm run lint && npm run test"
     }
-  }
+  },
+  "bundlesize": [
+    {
+      "path": "./dist/*.js",
+      "maxSize": "5 kB"
+    }
+  ]
 }
