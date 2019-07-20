@@ -2,8 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/detect-autofill.svg)](https://badge.fury.io/js/detect-autofill) [![Build Status](https://travis-ci.org/matteobad/detect-autofill.svg?branch=master)](https://travis-ci.org/matteobad/detect-autofill/) ![David](https://img.shields.io/david/dev/matteobad/detect-autofill.svg) ![David](https://img.shields.io/david/matteobad/detect-autofill.svg) [![Greenkeeper badge](https://badges.greenkeeper.io/matteobad/detect-autofill.svg)](https://greenkeeper.io/) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-* [How to use](#hot-to-use)
-* [How it works](#how-it-works)
+* [Getting started](#getting-started)
 * [Features](#features)
 * [Browser support](#browser-support)
 * [Demo](https://matteobad.github.io/focus-within-polyfill)
