@@ -52,7 +52,7 @@
     "husky": "^3.0.1",
     "node-sass": "^4.12.0",
     "npm-check": "^5.9.0",
-    "sass-loader": "^7.1.0",
+    "sass-loader": "^8.0.0",
     "semantic-release": "^15.13.18",
     "style-loader": "^0.23.1",
     "webpack": "^4.36.1",
