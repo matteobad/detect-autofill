@@ -54,7 +54,7 @@
     "npm-check": "^5.9.0",
     "sass-loader": "^8.0.0",
     "semantic-release": "^15.13.18",
-    "style-loader": "^0.23.1",
+    "style-loader": "^1.0.0",
     "webpack": "^4.36.1",
     "webpack-cli": "^3.3.6"
   },
