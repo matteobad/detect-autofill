@@ -11,7 +11,6 @@
     "watch": "webpack --mode=development -w",
     "test": "echo \"Error: no test specified\" && exit 0",
     "prepublishOnly": "npm run clean && npm run lint && npm run build && npm run test",
-    "upgrade": "npm-check --update",
     "semantic-release": "semantic-release",
     "travis-deploy-once": "travis-deploy-once"
   },
@@ -26,7 +25,7 @@
     "floating-label",
     "vanilla"
   ],
-  "author": "Matteo Badini",
+  "author": "Matteo Badini <matteo.badini95@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/matteobad/detect-autofill/issues"
@@ -34,29 +33,25 @@
   "homepage": "https://github.com/matteobad/detect-autofill#readme",
   "dependencies": {},
   "devDependencies": {
-    "@semantic-release/changelog": "^3.0.4",
-    "@semantic-release/commit-analyzer": "^6.2.0",
-    "@semantic-release/git": "^7.0.16",
-    "@semantic-release/github": "^5.4.2",
-    "@semantic-release/npm": "^5.1.13",
-    "@semantic-release/release-notes-generator": "^7.2.1",
-    "bundlesize": "^0.18.0",
+    "@semantic-release/changelog": "^3.0.5",
+    "@semantic-release/commit-analyzer": "^6.3.2",
+    "@semantic-release/git": "^7.0.17",
+    "@semantic-release/github": "^5.5.5",
+    "@semantic-release/npm": "^5.3.2",
+    "@semantic-release/release-notes-generator": "^7.3.2",
     "clean-webpack-plugin": "^3.0.0",
-    "closure-webpack-plugin": "^2.0.1",
     "commitizen": "^4.0.3",
-    "css-loader": "^3.1.0",
-    "cz-conventional-changelog": "^3.0.1",
-    "eslint": "^6.0.1",
+    "css-loader": "^3.2.0",
+    "cz-conventional-changelog": "^3.0.2",
+    "eslint": "^6.6.0",
     "eslint-config-google": "^0.14.0",
-    "google-closure-compiler": "^20190729.0.0",
-    "husky": "^3.0.1",
-    "node-sass": "^4.12.0",
-    "npm-check": "^5.9.0",
+    "husky": "^3.0.9",
+    "node-sass": "^4.13.0",
     "sass-loader": "^8.0.0",
-    "semantic-release": "^15.13.18",
+    "semantic-release": "^15.13.29",
     "style-loader": "^1.0.0",
-    "webpack": "^4.36.1",
-    "webpack-cli": "^3.3.6"
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
   },
   "config": {
     "commitizen": {
@@ -67,11 +62,5 @@
     "hooks": {
       "pre-commit": "npm run lint && npm run test"
     }
-  },
-  "bundlesize": [
-    {
-      "path": "./dist/*.js",
-      "maxSize": "5 kB"
-    }
-  ]
+  }
 }
