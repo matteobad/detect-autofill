@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/matteobad/detect-autofill/compare/v1.1.0...v1.1.1) (2019-11-02)
+
+
+### Bug Fixes
+
+* eslint errors ([6acbee5](https://github.com/matteobad/detect-autofill/commit/6acbee5dc5d2d545c88b80ece96aaa61dc77d785))
+
 # [1.1.0](https://github.com/matteobad/detect-autofill/compare/v1.0.0...v1.1.0) (2019-07-20)
 
 
