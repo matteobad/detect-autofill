@@ -45,7 +45,7 @@
     "cz-conventional-changelog": "^3.0.2",
     "eslint": "^6.6.0",
     "eslint-config-google": "^0.14.0",
-    "husky": "^3.0.9",
+    "husky": "^4.0.2",
     "node-sass": "^4.13.0",
     "sass-loader": "^8.0.0",
     "semantic-release": "^15.13.29",
