@@ -34,7 +34,7 @@
   "dependencies": {},
   "devDependencies": {
     "@semantic-release/changelog": "^3.0.5",
-    "@semantic-release/commit-analyzer": "^7.0.0",
+    "@semantic-release/commit-analyzer": "^8.0.0",
     "@semantic-release/git": "^8.0.0",
     "@semantic-release/github": "^6.0.1",
     "@semantic-release/npm": "^6.0.0",
