@@ -36,7 +36,7 @@
     "@semantic-release/changelog": "^3.0.5",
     "@semantic-release/commit-analyzer": "^7.0.0",
     "@semantic-release/git": "^8.0.0",
-    "@semantic-release/github": "^6.0.1",
+    "@semantic-release/github": "^7.0.0",
     "@semantic-release/npm": "^6.0.0",
     "@semantic-release/release-notes-generator": "^7.3.2",
     "clean-webpack-plugin": "^3.0.0",
