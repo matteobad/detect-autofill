@@ -1,7 +1,7 @@
 # Directories
+.github/
 .npm/
 demos/
-docs/
 node_modules/
 src/
 
@@ -10,3 +10,14 @@ src/
 .eslintcache
 npm-debug.log*
 *.config.js
+.editorconfig
+.eslintignore
+.eslintrc.js
+.gitattributes
+.gitignore
+.releaserc
+.travis.yml
+CHANGELOG.md
+CODE_OF_CONDUCT.md
+README.md
+webpack.config.js
