@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/matteobad/detect-autofill/compare/v1.1.1...v1.1.2) (2020-02-02)
+
+
+### Bug Fixes
+
+* update npmignore ([82b2019](https://github.com/matteobad/detect-autofill/commit/82b2019be6e73573ffd0454e4a4aea14ee7560c7))
+
 ## [1.1.1](https://github.com/matteobad/detect-autofill/compare/v1.1.0...v1.1.1) (2019-11-02)
 
 
