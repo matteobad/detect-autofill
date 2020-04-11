@@ -31,7 +31,9 @@
     "url": "https://github.com/matteobad/detect-autofill/issues"
   },
   "homepage": "https://github.com/matteobad/detect-autofill#readme",
-  "dependencies": {},
+  "dependencies": {
+    "custom-event-polyfill": "^1.0.7"
+  },
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/commit-analyzer": "^8.0.1",
