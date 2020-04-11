@@ -1,26 +1,8 @@
 import './detect-autofill.scss';
+import 'custom-event-polyfill';
 
 document.addEventListener('animationstart', onAnimationStart, true);
 document.addEventListener('input', onInput, true);
-
-// polyfill CustomEvent for < IE11
-if (typeof window.CustomEvent !== 'function') {
-  /**
-   * @TODO Polyfill or no CustomEvent on IE?
-   *
-   * @param {string} event
-   * @param {any} params
-   * @return {CustomEvent}
-   */
-  function CustomEvent(event, params) {
-    params = params || {bubbles: false, cancelable: false, detail: null};
-    var e = document.createEvent('CustomEvent');
-    e.initCustomEvent(event, params.bubbles, params.cancelable, params.detail);
-    return e;
-  }
-
-  window.CustomEvent = CustomEvent;
-}
 
 /**
  * Handler for -webkit based browser that listen for a custom
