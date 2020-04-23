@@ -49,7 +49,7 @@
     "eslint-config-google": "^0.14.0",
     "fibers": "^4.0.2",
     "husky": "^4.2.5",
-    "marked": "^0.7.0",
+    "marked": "^1.0.0",
     "node-sass": "^4.13.0",
     "sass": "^1.26.3",
     "sass-loader": "^8.0.2",
