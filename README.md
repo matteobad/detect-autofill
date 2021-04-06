@@ -23,7 +23,7 @@
 3. do your things...
 
 ```js
-document.addEventListener('autocomplete', function(e) {
+document.addEventListener('onautocomplete', function(e) {
   e.target.hasAttribute('autocompleted'); // true or false
   e.preventDefault(); // prevent autofill
   // do you stuff...
