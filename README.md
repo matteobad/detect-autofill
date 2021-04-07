@@ -25,7 +25,7 @@
 ```js
 document.addEventListener('onautocomplete', function(e) {
   e.target.hasAttribute('autocompleted'); // true or false
-  e.preventDefault(); // prevent autofill
+  e.preventDefault(); // prevent autocomplete
   // do you stuff...
 })
 ```
@@ -43,22 +43,22 @@ Furthermore this custom event can be prevented like all native events in order t
 ## Features
 
 * Polyfill for CustomEvent integrated
-* CustomEvent on autocomplete
-* CustomEvent on autocomplete cancel
-* Possibility to prevent autocomplete
+* CustomEvent on `onautocomplete`
+* CustomEvent on `onautocomplete` cancel
+* Possibility to prevent `onautocomplete`
 
 ## Browser Support
 
 | CustomEvent    | Edge | IE11  | Chrome | Firefox | Safari | Opera | iOS |
 | -------------- |:----:|:-----:|:------:|:-------:|:------:|:-----:|:---:|
-| `autocomplete` | ✓    | ✓     | ✓      | ✓       | ✓      | ✓     | ✓   |
+| `onautocomplete` | ✓    | ✓     | ✓      | ✓       | ✓      | ✓     | ✓   |
 
 \* This script uses different technics to detect autofill based on the browser:
 
 * **Chrome**, **Opera** and **Safari** uses the pseudo-class `:-webkit-autofill` to trigger a custom animation.
 * **Firefox** uses input event on document and checks for a propriety `inputType` property of the event.
 * **IE**, **Edge** and **iOS** uses the same input event but they have to check the `data` property.
-* **Android** ha not yet been tested but I have reason to believe it works just fine.
+* **Android** ha not yet been tested any help is welcomed.
 
 ## Demos
 
