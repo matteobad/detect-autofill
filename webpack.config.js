@@ -1,5 +1,4 @@
 const path = require('path');
-const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 
 const config = {
   entry: path.resolve(__dirname, 'src', 'detect-autofill.js'),
@@ -17,9 +16,7 @@ const config = {
       ],
     }],
   },
-  plugins: [
-    new CleanWebpackPlugin(),
-  ],
+  plugins: [],
 };
 
 module.exports = (env, argv) => {
