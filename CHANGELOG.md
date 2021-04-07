@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/matteobad/detect-autofill/compare/v1.1.3...v1.1.4) (2021-04-07)
+
+
+### Bug Fixes
+
+* doc ([d2c5b12](https://github.com/matteobad/detect-autofill/commit/d2c5b124b30431160bdcc3ce4293f0ccfd18a1ff))
+
 ## [1.1.3](https://github.com/matteobad/detect-autofill/compare/v1.1.2...v1.1.3) (2020-04-11)
 
 
