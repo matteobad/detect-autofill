@@ -25,7 +25,7 @@
 ```js
 document.addEventListener('onautocomplete', function(e) {
   e.target.hasAttribute('autocompleted'); // true or false
-  e.preventDefault(); // prevent autofill
+  e.preventDefault(); // prevent autocomplete
   // do you stuff...
 })
 ```
