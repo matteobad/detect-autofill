@@ -40,7 +40,7 @@ function onInput(event) {
  * @param {HtmlInputElement} element
  */
 function autocomplete(element) {
-  if (element.hasAttribute('autocompleted')) return;
+  if (!element || element.hasAttribute('autocompleted')) return;
   element.setAttribute('autocompleted', '');
 
   var event = new window.CustomEvent('onautocomplete', {
@@ -63,7 +63,7 @@ function autocomplete(element) {
  * @param {HtmlInputElement} element
  */
 function cancelAutocomplete(element) {
-  if (!element.hasAttribute('autocompleted')) return;
+  if (!element || !element.hasAttribute('autocompleted')) return;
   element.removeAttribute('autocompleted');
 
   // dispatch event
